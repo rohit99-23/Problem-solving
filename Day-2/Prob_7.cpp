@@ -49,5 +49,7 @@ int main(){
         cout<<"Enter the correct Choice";
     }
 
+    main ();
+
     return 0;
 }
