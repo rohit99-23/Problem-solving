@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int N;
+    long long N;
 
     cout<<"Enter number: ";
     cin>>N;
