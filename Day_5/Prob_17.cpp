@@ -15,5 +15,6 @@ int main(){
     }
     cout<<"Final sum of All even numbers till "<<N<<" is: "<<sum;
 
+    return 0;
 
 }
