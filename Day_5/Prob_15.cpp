@@ -11,7 +11,7 @@ int main(){
     cout<<"Multiplication table of: "<<a<<" is"<<endl;
     for(int i=1; i<=10; i++){
         mul=i*a;
-        cout<<mul<<endl;
+        cout<<a<<"*"<<i<<"="<<mul<<endl;
     }
     return 0;
 
