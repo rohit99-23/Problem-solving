@@ -7,6 +7,11 @@ int main(){
 
     cout<<"Enter a Number to find Factorial of that: ";
     cin>>a;
+    
+    if(a<=0){
+        cout<<"Enter a Positive number greater than 0";
+        exit(1);
+    }
 
     int fact=1;
 
