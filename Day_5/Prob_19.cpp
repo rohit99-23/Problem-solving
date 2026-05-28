@@ -7,8 +7,8 @@ int main(){
     cout<<"Enter a number: ";
     cin>>N;
 
-    int digit=n/10;
-    int rem=n%10;
+    int digit=N/10;
+    int rem=N%10;
 
     int rev=10*digit+rem;
     cout<<rev;
