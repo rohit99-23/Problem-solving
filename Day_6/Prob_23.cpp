@@ -5,4 +5,23 @@ int main(){
     int n;
     cout<<"Enter number: ";
     cin>>n;
+
+    bool isPrime=true;
+
+    if(1<=1){
+        bool isPrime=false;
+    }
+
+    for(int i=2; i<=N; i++) {
+        if(n%i==0){
+            isPrime=false;
+            break;
+        }
+    }
+    if(isPrime){
+        cout<<n<<" is a Prime Number";
+    }else{
+        cout<<n<<" is not a prime number";
+    }
+    return 0;
 }
