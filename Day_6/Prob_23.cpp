@@ -1,2 +1,3 @@
 // Prime number check
-#include <iostream
+#include <iostream>
+using namespace std;
