@@ -6,15 +6,15 @@ int main(){
     cout<<"Enter number: ";
     cin>>n;
 
-    bool isPrime=true;
+    bool isPrime = true;
 
-    if(1<=1){
-        bool isPrime=false;
+    if(n <= 1){
+        isPrime = false;
     }
 
-    for(int i=2; i<=N; i++) {
+    for(int i=2; i<n; i++) {
         if(n%i==0){
-            isPrime=false;
+            isPrime = false;
             break;
         }
     }
