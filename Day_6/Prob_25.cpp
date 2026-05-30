@@ -3,7 +3,7 @@
 using namespace std;
 void gcd_cal(){
     int a,b;
-    cout<<"Enyter two number: ";
+    cout<<"Enter two number: ";
     cin>>a>>b;
 
     int gcd = 1;
