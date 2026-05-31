@@ -28,4 +28,5 @@ int main(){
     gcd_cal();
 
     return 0;
+    
 }
