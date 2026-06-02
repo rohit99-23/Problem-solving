@@ -8,7 +8,6 @@ int main(){
     cout<<"Enter a number: ";
     cin>>n;
 
-
     for(int i=2; i<=n; i++){
         bool isPrime = true;
         if(n <= 1){
