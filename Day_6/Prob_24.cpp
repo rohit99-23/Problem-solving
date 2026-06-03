@@ -13,7 +13,6 @@ int main(){
         if(n <= 1){
            isPrime=false;
         }
-
         for(int j=2; j<i; j++){
             if(i%j == 0){
                isPrime = false;
